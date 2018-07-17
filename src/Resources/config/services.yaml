@@ -1,0 +1,4 @@
+services:
+  ms_computer_vision.client:
+    class: OpenWines\ComputerVisionBundle\ComputerVision\ComputerVisionClient
+    arguments: ['%ms_computer_vision.api_token%']
